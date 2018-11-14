@@ -18,9 +18,15 @@ Funktion:
 
 - Solls einen Downloadbutton geben?
 
+- 
+
 
 
 <b> TO-DO</br>
+- [ ] Datenbank erstellt
+- [ ] Bilder werden hochgeladen
+- [ ]  Bilder werden in die Datenbank eingepflegt
+
 - [ ] Checker gegen Spambots
 - [ ]  Checker gegen Viren etc.
 - [ ]  Widerdingsbumserklärung, dass niemand für inhalte verantwortlich sind( kann ja alles mögliche hochgeladen werden, da muss man aufpassen, dass nichts illegaes passieren kann)
