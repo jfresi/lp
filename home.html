@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Lastposted</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+
+    <link rel="stylesheet" href="style/css/styles.css">
+
+</head>
+<body>
+
+<section class="o-header landingpage">
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">AGB</a></li>
+            <li><a href="#">Impress</a></li>
+        </ul>
+    </nav>
+    <div class="polaroid">
+        <div class="polaroid__image">
+            <img src="" id="profile-img-tag" width="380px" alt="">
+        </div>
+
+        <form class="e-upload" method="post" enctype="multipart/form-data">
+            <label class="c-btn--choose">Choose Image
+                <input name="file" id="profile-img" type="file" size="50" accept="image/*">
+            </label>
+            <button type="submit" class="c-btn c-btn--upload">Upload</button>
+
+            <label class="switch" for="js-myCheck" id="randomlast">
+                <input type="checkbox" name="js-myCheck" id="js-myCheck"
+                       onclick="changeSwitchText('js-myCheck','randomlast')" checked>
+                <span class="slider round"></span>
+                <p class="u-padding-top-xs" id="js-switchtext"></p>
+            </label>
+        </form>
+    </div>
+</section>
+<section>
+
+</section>
+
+<div>
+    <script type="text/javascript" src="script/main.js"></script>
+</div>
+</body>
+</html>

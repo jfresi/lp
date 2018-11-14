@@ -1,0 +1,31 @@
+
+
+/* Main Colors */
+$color-primary: #F0F49C;
+$color-secondary: #5CE6D6;
+$color-tertiary: #E15A77;
+
+
+$color-dark: #1C1C1C;
+$color-light: #FFFFF4;
+
+
+$color-primary-light: lighten($color-primary, 30%);
+/*$color-primary-light: #E9879C;*/
+
+$color-secondary-light: lighten($color-secondary, 30%);
+/*$color-secondary-light: #88ECE1;*/
+
+$color-tertiary-light: lighten($color-tertiary, 30%);
+/*$color-tertiary-light: #F4F7B7;*/
+
+
+/* Semantic Colors */
+
+
+
+
+/* Spacing */
+$spacing-unit:  24px;
+
+

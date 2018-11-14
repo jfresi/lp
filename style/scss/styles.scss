@@ -1,0 +1,48 @@
+/*
+  Settings – used with preprocessors and contain font, colors definitions, etc.
+
+  Tools – globally used mixins and functions. It’s important not to output any CSS in the first 2 layers.
+
+  Generic – reset and/or normalize styles, box-sizing definition, etc. This is the first layer which generates actual CSS.
+
+  Elements – styling for bare HTML elements (like H1, A, etc.). These come with default styling from the browser so we can redefine them here.
+
+  Objects – class-based selectors which define undecorated design patterns, for example media object known from OOCSS
+
+  Components – specific UI components. This is where majority of our work takes place and our UI components are often composed of Objects and Components
+
+  Utilities – utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
+*/
+
+/* Settings */
+@import "01_settings/settings.colors";
+@import "01_settings/settings.global";
+
+/* Tools */
+@import "02_tools/tools.mixins";
+
+
+
+/* Generic */
+@import "03_generic/generic.normalize";
+
+
+@import "04_elements/elements.images";
+@import "04_elements/elements.anchors";
+@import "04_elements/elements.page";
+@import "04_elements/elements.form";
+@import "04_elements/elements.inputs";
+
+
+/*OBJECTS*/
+@import "05_objects/objects.header";
+
+/* Components */
+@import "06_components/components.polaroid";
+@import "06_components/components.navigation";
+@import "06_components/components.switch";
+@import "06_components/components.buttons";
+
+
+/* UTILITIES*/
+@import "07_utilities/utilities.dimensions";

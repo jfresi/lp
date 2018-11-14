@@ -1,0 +1,48 @@
+.c-btn {
+  background-color: $color-tertiary;
+  padding: 8px 16px;
+  color: $color-light;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  outline: none;
+
+
+  &:hover {
+    background-color: darken($color-tertiary, 10%);
+    border-color: #E15A77;
+  }
+
+}
+
+.c-btn--upload {
+
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+label.c-btn--choose {
+  padding: 10px;
+  background: $color-tertiary;
+  display: table;
+  color: $color-light;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: darken($color-tertiary, 10%);
+    border-color: #E15A77;
+  }
+}
+.c-btn--choose {
+
+
+
+}
+
+input[type="file"] {
+   display: none;
+ }
