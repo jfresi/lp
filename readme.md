@@ -11,8 +11,10 @@ Funktion:
  - [ ] Der Switch soll regulieren ob der User das chronologisch vorletzte Bild runtergeladen bekommt, oder ein zufälliges aus der Datenbank
 
 
-- [] Über den Upload-Button kann der Nutzer eine .jpg/.png/(WELCHE DATEIETYPEN?)- Datei von seinem Computer auswählen und hochladen.
+- [ ] Über den Upload-Button kann der Nutzer eine .jpg/.png/(WELCHE DATEIETYPEN?)- Datei von seinem Computer auswählen und hochladen.
   Die Datei wird an die Datenbank übergeben und bekommt einen Zeitstempel-Wert hinzugefügt. 
-- [] Danach wird das chronologisch vorletzte Bild von der Datenbank ausgewählt(oder durch eine Anfrage an die Datenbank ausgewählt)      und im Bilderrahmen für den Nutzer angezeigt.
+  
+- [ ] Danach wird das chronologisch vorletzte Bild von der Datenbank ausgewählt(oder durch eine Anfrage an die Datenbank ausgewählt)      und im Bilderrahmen für den Nutzer angezeigt.
+
 - Solls einen Downloadbutton geben?
 
