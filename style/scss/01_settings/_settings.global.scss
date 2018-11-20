@@ -1,0 +1,36 @@
+
+$inuit-global-baseline:     4px !default;
+
+
+
+// How many grid lines should our spacing unit variants span?
+// Each value should be an unitless integer.
+
+$spacing-unit-factor-tiny:   1 !default;   // 4px
+$spacing-unit-factor-small:  2 !default;   // 8px
+$spacing-unit-factor:        4 !default;   // 16px
+$spacing-unit-factor-large:  8 !default;   // 32px
+$spacing-unit-factor-huge:   16 !default;  // 64px
+$spacing-unit-factor-xxl:    32 !default;  // 128px
+$spacing-unit-factor-xxxl:   64 !default;  // 256px
+
+
+
+// Spacing values are determined based on your project’s global baseline grid.
+// It is not recommended that you modify these following variables
+// (it can break your vertical rhythm), but if you need to, you can.
+
+$spacing-unit-m:       $inuit-global-baseline * $spacing-unit-factor !default;
+$spacing-unit-xs:  $inuit-global-baseline * $spacing-unit-factor-tiny !default;
+$spacing-unit-s: $inuit-global-baseline * $spacing-unit-factor-small !default;
+$spacing-unit-l: $inuit-global-baseline * $spacing-unit-factor-large !default;
+$spacing-unit-xl:  $inuit-global-baseline * $spacing-unit-factor-huge !default;
+$spacing-unit-xxl:  $inuit-global-baseline * $spacing-unit-factor-xxl !default;
+$spacing-unit-xxxl:  $inuit-global-baseline * $spacing-unit-factor-xxxl !default;
+
+
+
+
+// WEBSITE CONTENT WIDTH
+
+$website-content-width: 1060px;

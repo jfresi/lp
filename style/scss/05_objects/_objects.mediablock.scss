@@ -1,0 +1,18 @@
+.o-mediablock {
+  width: $website-content-width;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.o-mediablock__item {
+  width: 50%;
+  padding: $spacing-unit-l;
+
+  img {
+    display: flex;
+    flex-basis: 50%;
+    height: auto;
+  }
+}
