@@ -1,0 +1,23 @@
+.c-headline {
+  padding: $spacing-unit-m;
+
+  h2 {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+    &::after {
+      content: "";
+      margin: auto;
+      width: 30px;
+      height: 3px;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      right: 0;
+      background: $color-primary;
+      opacity: 0.2;
+
+    }
+  }
+}

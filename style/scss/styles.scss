@@ -27,22 +27,26 @@
 @import "03_generic/generic.normalize";
 
 
+/* ELEMENTS */
 @import "04_elements/elements.images";
 @import "04_elements/elements.anchors";
 @import "04_elements/elements.page";
 @import "04_elements/elements.form";
 @import "04_elements/elements.inputs";
+@import "04_elements/elements.typography";
 
 
 /*OBJECTS*/
 @import "05_objects/objects.header";
+@import "05_objects/objects.mediablock";
+@import "05_objects/objects.about";
 
 /* Components */
 @import "06_components/components.polaroid";
 @import "06_components/components.navigation";
 @import "06_components/components.switch";
 @import "06_components/components.buttons";
-
+@import "06_components/components.typography";
 
 /* UTILITIES*/
 @import "07_utilities/utilities.dimensions";

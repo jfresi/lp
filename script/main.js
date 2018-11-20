@@ -1,3 +1,5 @@
+
+/*SHOW IMAGE WHEN SELECTED*/
 function readURL(input) {
     if (input.files && input.files[0]) {
         var reader = new FileReader();
@@ -13,6 +15,8 @@ $("#profile-img").change(function(){
     readURL(this);
 });
 
+
+/*SWITCH FOR RANDOM AND LAST */
 function changeSwitchText() {
 
     var checkBox = document.getElementById("js-myCheck");
@@ -27,3 +31,22 @@ function changeSwitchText() {
     }
 
 }
+
+
+
+/*SMOOTH SCROOLING*/
+
+$(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 500);
+                return false;
+            }
+        }
+    });
+});
