@@ -18,7 +18,7 @@ Funktion:
 
 - Solls einen Downloadbutton geben?
 
-- 
+- Es soll nicht zu datig werden, aber man kann evtl. die Möglichkeit haben Kontakt aufzubauen.
 
 
 
